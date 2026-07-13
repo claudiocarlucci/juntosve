@@ -1,0 +1,707 @@
+{
+  "meta": {
+    "nombre": "JuntosVE — Centro de Recursos · Sismo Venezuela 2026",
+    "descripcion": "Directorio abierto y verificado de recursos de emergencia tras el doble sismo del 24 de junio de 2026. Datos de libre uso para cualquier plataforma. Atribución apreciada.",
+    "version": "1.1.0",
+    "actualizado": "2026-06-28",
+    "licencia": "CC-BY-4.0 / Datos abiertos",
+    "fuentes": [
+      "El Pitazo",
+      "El Nacional",
+      "El Diario",
+      "Meridiano",
+      "CNN Español",
+      "Ministerio de Salud de Venezuela"
+    ],
+    "aviso": "Información recopilada de fuentes públicas verificables. Puede cambiar rápidamente durante la emergencia. Verifica antes de trasladarte. Esta no es una fuente oficial gubernamental.",
+    "autor": "Claudio Carlucci — venezolano guaireño en el exterior, creador de herramientas cívicas.",
+    "contacto": "claucci22ar@gmail.com",
+    "contacto_correccion": "Reporta datos desactualizados o erróneos para mantener el directorio confiable."
+  },
+  "emergencia": {
+    "lineas_nacionales": [
+      {
+        "nombre": "Emergencias (línea única)",
+        "numero": "911",
+        "tipo": "general"
+      },
+      {
+        "nombre": "Protección Civil",
+        "numero": "0800-PROTEC",
+        "tipo": "proteccion_civil"
+      },
+      {
+        "nombre": "Bomberos (consultar estación local)",
+        "numero": "171",
+        "tipo": "bomberos"
+      }
+    ],
+    "nota": "Durante la emergencia, Digitel y Cantv habilitaron llamadas y mensajes sin costo por 48 horas. Las líneas pueden estar saturadas; insiste o acude al punto físico más cercano."
+  },
+  "centros_acopio": [
+    {
+      "id": "ac-001",
+      "nombre": "Iglesia La Paz",
+      "zona": "Montalbán I",
+      "municipio": "Libertador",
+      "direccion": "Iglesia La Paz, Montalbán I",
+      "tipo": "religioso",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "medicinas",
+        "ropa",
+        "mantas"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-002",
+      "nombre": "Iglesia San Bernardino de Siena",
+      "zona": "San Bernardino",
+      "municipio": "Libertador",
+      "direccion": "Parroquia San Bernardino, Iglesia San Bernardino de Siena",
+      "tipo": "religioso",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "medicinas",
+        "ropa"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-003",
+      "nombre": "Centro de acopio Altamira (Quinta El Bejucal)",
+      "zona": "Altamira",
+      "municipio": "Chacao",
+      "direccion": "Cuarta avenida de Altamira, entre novena y décima transversal, Quinta El Bejucal",
+      "tipo": "comunitario",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "insumos médicos",
+        "ropa",
+        "abrigos"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-004",
+      "nombre": "Sede de Desarrollo Social (lateral CC Sambil Chacao)",
+      "zona": "Chacao",
+      "municipio": "Chacao",
+      "direccion": "Calle Los Ángeles, lateral al CC Sambil Chacao",
+      "tipo": "institucional",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "insumos médicos",
+        "ropa"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-005",
+      "nombre": "Edificio FCU-UCV",
+      "zona": "Ciudad Universitaria",
+      "municipio": "Libertador",
+      "direccion": "Edificio de la Federación de Centros Universitarios de la UCV (FCU-UCV), Plaza Rectorado",
+      "tipo": "universitario",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "insumos médicos",
+        "ropa",
+        "primeros auxilios"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-006",
+      "nombre": "Protección Civil — junto a Bomberos de El Cafetal",
+      "zona": "El Cafetal",
+      "municipio": "Baruta",
+      "direccion": "Sede de Protección Civil, al lado de los Bomberos de El Cafetal",
+      "tipo": "institucional",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "insumos médicos",
+        "ropa",
+        "mantas"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-007",
+      "nombre": "Parque Alí Primera",
+      "zona": "Catia",
+      "municipio": "Libertador",
+      "direccion": "Parque Alí Primera, avenida Sucre de Catia",
+      "tipo": "comunitario",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "ropa",
+        "mantas"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-008",
+      "nombre": "Conferencia Episcopal Venezolana (CEV)",
+      "zona": "Montalbán",
+      "municipio": "Libertador",
+      "direccion": "Sede CEV, Montalbán",
+      "tipo": "religioso",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "medicinas",
+        "ropa"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-009",
+      "nombre": "Parroquia El Buen Pastor",
+      "zona": "Bello Campo",
+      "municipio": "Chacao",
+      "direccion": "Parroquia El Buen Pastor, urbanización Bello Campo",
+      "tipo": "religioso",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "ropa",
+        "mantas"
+      ],
+      "verificado": true
+    },
+    {
+      "id": "ac-010",
+      "nombre": "Terrazas del Club Hípico (Rotaract Caracas)",
+      "zona": "Club Hípico",
+      "municipio": "Baruta",
+      "direccion": "Terrazas del Club Hípico, Caracas — Centro de acopio de Rotaract Caracas",
+      "tipo": "organizacion_civil",
+      "recibe": [
+        "agua",
+        "alimentos no perecederos",
+        "insumos médicos",
+        "ropa"
+      ],
+      "verificado": true
+    }
+  ],
+  "insumos_prioritarios": {
+    "se_necesita": [
+      "Agua potable",
+      "Alimentos no perecederos",
+      "Medicamentos e insumos médicos",
+      "Kits de primeros auxilios",
+      "Mantas y cobijas",
+      "Ropa en buen estado",
+      "Artículos de higiene personal",
+      "Linternas",
+      "Pilas / baterías"
+    ],
+    "no_enviar": [
+      "Ropa en mal estado o sucia",
+      "Alimentos perecederos o vencidos",
+      "Medicamentos vencidos",
+      "Objetos voluminosos no esenciales"
+    ]
+  },
+  "salud": {
+    "nota": "El Ministerio de Salud activó una red de ocho hospitales públicos en la Gran Caracas más doce clínicas privadas para triaje, estabilización y hospitalización. La atención fue dispuesta de forma gratuita con prioridad en Distrito Capital, La Guaira, Miranda, Aragua, Carabobo y Falcón.",
+    "recomendacion": "Ante una urgencia médica grave acude directamente al centro de salud más cercano o llama al 911. Algunos hospitales fueron evacuados por daños; confirma antes de trasladarte si no es una urgencia inmediata."
+  },
+  "personas_desaparecidas": {
+    "nota": "Si no logras comunicarte con un familiar, estas plataformas permiten registrar o buscar personas. Son externas, gratuitas y especializadas en búsqueda. Puedes reportar desde cualquier país.",
+    "aviso": "Importante: estas plataformas son de origen ciudadano y no verifican ni moderan los datos. La responsabilidad de lo publicado recae en quien lo envía. Corrobora la información antes de difundirla y actualiza el estado de una persona si es localizada.",
+    "plataformas": [
+      {
+        "nombre": "Desaparecidos Terremoto Venezuela",
+        "url": "https://desaparecidosterremotovenezuela.com/",
+        "funcion": "La más usada: 40,000+ reportes. Reconocimiento facial para verificar identidades. Reporta, busca y confirma personas localizadas."
+      },
+      {
+        "nombre": "Desaparecidos Venezuela",
+        "url": "https://www.desaparecidosvenezuela.com/",
+        "funcion": "Reporta a un ser querido, avisa que estás a salvo o aporta una pista. Plataforma solidaria y gratuita."
+      },
+      {
+        "nombre": "Venezuela Te Busca",
+        "url": "https://venezuelatebusca.com/",
+        "funcion": "Registro colaborativo. Busca por nombre, cédula o estado. Personas localizadas en apartado separado."
+      },
+      {
+        "nombre": "Venezuela Reporta",
+        "url": "https://venezuelareporta.org/",
+        "funcion": "Registro gratuito comunitario. Disponible también en inglés."
+      },
+      {
+        "nombre": "CIVIS Venezuela",
+        "url": "https://civisvenezuela.com/",
+        "funcion": "Búsqueda de personas + mapas de riesgo + puntos de abastecimiento + atención por WhatsApp. Plataforma integral."
+      }
+    ]
+  },
+  "danos_edificios": {
+    "titulo": "Reportar daños en edificios",
+    "nota": "Si tu edificio o vivienda sufrió daños estructurales, existen plataformas comunitarias de mapeo donde puedes registrarlos y consultar zonas bajo evaluación de riesgo. Esto ayuda a las autoridades y a los equipos de ingeniería a priorizar.",
+    "aviso": "Estos registros son comunitarios y no constituyen un dictamen oficial. Ante riesgo inminente de colapso, no ocupes la edificación y contacta a Protección Civil. Una evaluación profesional siempre es necesaria antes de volver a habitar una estructura dañada.",
+    "plataformas": [
+      {
+        "nombre": "Terremoto Venezuela — Mapeo de daños",
+        "url": "https://terremotovenezuela.com/",
+        "funcion": "Portal de mapeo comunitario dedicado a recopilar información sobre casas, apartamentos, locales y edificios con daños estructurales. Permite denunciar riesgos y consultar zonas bajo evaluación."
+      }
+    ]
+  },
+  "directorios_externos": [
+    {
+      "nombre": "Centros de Acopio Venezuela",
+      "url": "https://www.centrosdeacopiovzla.com/",
+      "descripcion": "Directorio comunitario con 500+ centros de acopio en 19 estados y 21 países. Búsqueda por estado, ciudad o cercanía."
+    },
+    {
+      "nombre": "Venezuela Te Necesita",
+      "url": "https://www.venezuelatenecesita.com/",
+      "descripcion": "Coordinación de emergencia: centros de acopio y personas desaparecidas."
+    },
+    {
+      "nombre": "Centros de Acopio Venezuela — Mapa interactivo",
+      "url": "https://centrosdeacopiove.com/",
+      "descripcion": "Directorio maestro con centros de acopio en 20+ países: Venezuela, Colombia, EE.UU., España, Perú, Chile, Argentina, Panamá, Brasil, Ecuador, Uruguay, México, Portugal, Italia, Emiratos Árabes, Japón, Alemania, Canadá y más. Mapa interactivo."
+    },
+    {
+      "nombre": "Red Venezuela Activa",
+      "url": "https://redvenezuelaactiva.org/",
+      "descripcion": "Coordinación de voluntariado, reportes urgentes y ayuda humanitaria."
+    }
+  ],
+  "diaspora": {
+    "titulo": "Ayudar desde el exterior sin caer en estafas",
+    "principios": [
+      "Dona solo a organizaciones con trayectoria verificable y rendición de cuentas pública.",
+      "Desconfía de cuentas personales nuevas que piden transferencias directas urgentes.",
+      "Verifica que las campañas de GoFundMe u otras tengan organizador identificable y actualizaciones.",
+      "Prefiere canales que publiquen en qué se usa el dinero y emitan recibos.",
+      "Si un mensaje presiona con urgencia extrema y exclusividad, sospecha."
+    ],
+    "senales_de_alerta": [
+      "Cuentas creadas hace pocos días sin historial",
+      "Presión para enviar dinero de inmediato",
+      "Falta de información sobre la organización detrás",
+      "Promesas de entrega imposibles de verificar",
+      "Solo aceptan métodos de pago no rastreables"
+    ]
+  },
+  "replicas": {
+    "nota": "Se registraron más de 300 réplicas tras el doble sismo. El riesgo de réplicas continúa.",
+    "que_hacer": [
+      "No regreses a edificaciones con daños visibles hasta que sean evaluadas.",
+      "Identifica zonas seguras: lejos de ventanas, bajo estructuras resistentes.",
+      "Mantén un kit básico listo: agua, linterna, documentos, medicinas.",
+      "Acuerda un punto de encuentro familiar fuera de los edificios.",
+      "Sigue únicamente información de organismos oficiales de protección civil."
+    ],
+    "senales_peligro_estructural": [
+      "Grietas grandes o en diagonal en columnas y vigas",
+      "Inclinación visible de la estructura",
+      "Puertas o ventanas que dejaron de cerrar bien",
+      "Sonidos de crujido o desprendimiento de material",
+      "Separación entre paredes y techos o pisos"
+    ],
+    "aviso": "Estas señales son orientación general, no un dictamen profesional. Una edificación sin señales visibles puede igual tener daño interno. Ante la duda, no la ocupes y busca evaluación de un ingeniero o de Protección Civil."
+  },
+  "refugios": {
+    "nota": "Espacios habilitados para alojamiento temporal de personas damnificadas. Las alcaldías habilitaron escuelas y estadios; confirma disponibilidad antes de trasladarte, ya que cambia día a día.",
+    "lugares": [
+      {
+        "id": "ref-001",
+        "nombre": "Escuelas habilitadas por el Ministerio de Educación",
+        "zona": "Varias parroquias",
+        "municipio": "Distrito Capital",
+        "direccion": "Diversas instituciones educativas habilitadas como refugio y centro de atención. Consulta la alcaldía de tu municipio.",
+        "tipo": "albergue_temporal"
+      },
+      {
+        "id": "ref-002",
+        "nombre": "Refugios municipales (estadios y espacios deportivos)",
+        "zona": "Área Metropolitana",
+        "municipio": "Varios",
+        "direccion": "Las alcaldías habilitaron estadios de béisbol y espacios deportivos como refugio. Consulta los canales oficiales de tu alcaldía.",
+        "tipo": "albergue_temporal"
+      }
+    ],
+    "aviso": "La disponibilidad de refugios cambia constantemente. Verifica con la alcaldía de tu municipio o Protección Civil antes de trasladarte con tu familia."
+  },
+  "agua": {
+    "nota": "El acceso a agua potable es crítico en los primeros días. Estos centros de acopio entregan agua además de recibir donaciones.",
+    "recomendaciones": [
+      "Si tienes agua almacenada de antes del sismo, consérvala para beber.",
+      "Hierve el agua de dudosa procedencia al menos un minuto antes de consumirla.",
+      "Prioriza agua para niños, embarazadas, adultos mayores y enfermos.",
+      "Los centros de acopio listados en esta página distribuyen agua potable según disponibilidad."
+    ]
+  },
+  "post_desastre": {
+    "titulo": "Qué hacer en los días que siguen",
+    "nota": "Cuando pase la urgencia inmediata, estos pasos ayudan a las familias damnificadas a recuperarse y acceder a ayuda.",
+    "pasos": [
+      "Documenta los daños de tu vivienda con fotos y videos antes de reparar nada — sirven para solicitar ayuda.",
+      "Reúne y resguarda tus documentos: cédula, títulos de propiedad, registros.",
+      "Anota un inventario de pérdidas materiales mientras lo recuerdas con claridad.",
+      "Mantente en contacto con tu comunidad y consejo comunal para coordinar ayuda colectiva.",
+      "Conserva recibos de cualquier gasto de emergencia.",
+      "Registra a tu familia en los censos de damnificados que levanten las autoridades locales."
+    ]
+  },
+  "mascotas": {
+    "titulo": "Mascotas perdidas y encontradas",
+    "nota": "En los desastres muchas familias se separan de sus animales. Estas pautas ayudan a reencontrarlos y a cuidarlos.",
+    "consejos": [
+      "Si encontraste un animal, compártelo en grupos vecinales y redes con foto y zona.",
+      "Si perdiste a tu mascota, publica foto, nombre, zona y un contacto.",
+      "Revisa refugios de animales y grupos locales de rescate animal.",
+      "Mantén a tus mascotas con agua y en un espacio seguro durante las réplicas.",
+      "Si está herida, contacta a clínicas veterinarias o rescatistas de animales de tu zona."
+    ],
+    "plataformas": [
+      {
+        "nombre": "Patitas a Salvo Venezuela",
+        "url": "https://migenteve.com/",
+        "funcion": "Red comunitaria para encontrar, reportar y reunir mascotas perdidas o encontradas. Filtra por estado, especie, ciudad o características."
+      }
+    ]
+  },
+  "psicologos": {
+    "titulo": "Apoyo psicológico",
+    "nota": "Líneas y organizaciones de salud mental que están activas ahora mismo en Venezuela, atendiendo de forma gratuita y confidencial. Llama o escribe directamente.",
+    "aviso": "Si tú o alguien corre peligro inmediato de hacerse daño, llama al 911 ahora. Estas líneas ofrecen primeros auxilios psicológicos, no son una sala de emergencia.",
+    "lineas_activas": [
+      {
+        "nombre": "Línea nacional de atención psicológica (Gobierno de Venezuela)",
+        "contacto": "0-800-AYUDA-01 (0-800-298-3201)",
+        "tipo": "telefono",
+        "horario": "Activada específicamente tras el sismo del 24 de junio. Equipo multidisciplinario de psicólogos y psiquiatras.",
+        "destacada": true
+      },
+      {
+        "nombre": "LAPSI — Federación de Psicólogos de Venezuela",
+        "contacto": "(0212) 416-3116 · (0424) 290-7338",
+        "tipo": "telefono",
+        "horario": "Primeros auxilios psicológicos, anónimo y confidencial. Viernes a domingo, 8:00 am a 8:00 pm."
+      },
+      {
+        "nombre": "Psicólogos sin Fronteras Venezuela — Acompañando en el Dolor",
+        "contacto": "WhatsApp/SMS (0424) 292-5604 · fines de semana por Telegram @Psi_AcompDolor",
+        "tipo": "whatsapp",
+        "horario": "Apoyo en crisis y duelo. Lunes a viernes 8:00 am–4:00 pm para agendar cita."
+      },
+      {
+        "nombre": "PsicoLínea UCAB",
+        "contacto": "0414-121-7882 · 0424-172-3981",
+        "tipo": "telefono",
+        "horario": "Primeros auxilios psicológicos e intervención en crisis. Jueves, 8:00 am a 5:00 pm."
+      },
+      {
+        "nombre": "Cecodap — niños, niñas y adolescentes",
+        "contacto": "0414-269-6823 · 0424-284-2359 · 0424-269-1229",
+        "tipo": "whatsapp",
+        "horario": "Apoyo a familias, niños y adolescentes en crisis. Teléfono o WhatsApp."
+      },
+      {
+        "nombre": "Por Nosotras (AVESA) — mujeres en situación de violencia",
+        "contacto": "(0424) 165-9742 · (0212) 414-5114",
+        "tipo": "telefono",
+        "horario": "Martes a sábado, 8:00 am a 8:00 pm."
+      }
+    ],
+    "lineas_activas_aviso": "Estas líneas son organizaciones independientes y oficiales ya en funcionamiento. JuntosVE solo las recopila y enlaza."
+  },
+  "campanas": {
+    "titulo": "Campañas de recaudación verificadas",
+    "nota": "Recaudaciones para la ayuda tras el sismo. Empieza por el hub oficial de GoFundMe, donde cada campaña pasó por verificación de su equipo de seguridad. Las campañas individuales abajo fueron seleccionadas por tener organización identificable y trayectoria.",
+    "aviso": "Antes de donar, verifica siempre: quién recibe los fondos, cómo se usarán y la relación del organizador con la causa. Las estafas aumentan tras los desastres. JuntosVE no recauda dinero ni gestiona estos fondos; solo enlaza a campañas externas.",
+    "hub_oficial": {
+      "nombre": "Hub oficial GoFundMe — Venezuela (verificado)",
+      "url": "https://www.gofundme.com/c/act/venezuela-earthquake-relief-es",
+      "descripcion": "Centro oficial de GoFundMe con campañas verificadas por su equipo de Trust & Safety y cubiertas por la Garantía de Donación. El punto más seguro para donar desde el exterior."
+    },
+    "destacadas": [
+      {
+        "nombre": "I Love Venezuela Foundation — Ayuda de emergencia",
+        "organizador": "We Love Foundation Inc.",
+        "url": "https://www.gofundme.com/f/emergency-relief-for-venezuela-earthquake-victims",
+        "descripcion": "Fundación con 13 años de trayectoria, en alianza con Global Empowerment Mission (GEM). Fondos a través de organizaciones sin fines de lucro locales.",
+        "verificada": true
+      },
+      {
+        "nombre": "Austin Venezuelan Association — Ayuda urgente",
+        "organizador": "Austin Venezuelan Association (AVA)",
+        "url": "https://www.gofundme.com/f/awvd8x-urgent-relief-for-venezuela-earthquake-victims",
+        "descripcion": "ONG fundada en 2002. Compra y envío de alimentos, linternas, kits médicos. Publican recibos de cada envío y compra.",
+        "verificada": true
+      },
+      {
+        "nombre": "Earthquake Relief for Families — Caracas y La Guaira",
+        "organizador": "Nikolai Elneser y Mariel Lozada",
+        "url": "https://www.gofundme.com/f/earthquake-relief-for-families-in-venezuela",
+        "descripcion": "Grupo de venezolanos en EE.UU. apoyando a responders independientes y centros de acopio comunitarios en Caracas y La Guaira, con reporte de uso de fondos.",
+        "verificada": true
+      },
+      {
+        "nombre": "GlobalGiving — Venezuela Earthquake Relief Fund",
+        "organizador": "GlobalGiving",
+        "url": "https://www.globalgiving.org/projects/venezuela-earthquake-relief-fund/",
+        "descripcion": "Fondo de una organización con calificación de cuatro estrellas en Charity Navigator. Financia a organizaciones locales para respuesta de emergencia, refugio y atención médica.",
+        "verificada": true
+      }
+    ],
+    "nota_curaduria": "Esta lista es curada y verificada manualmente por el equipo de JuntosVE. Para proponer una campaña, contacta al administrador."
+  },
+  "centros_acopio_internacional": {
+    "nota": "Puntos de recolección organizados por la diáspora y organizaciones aliadas. Los horarios y la vigencia cambian rápido: confirma en los canales de cada organización antes de ir.",
+    "aviso_logistico": "Importante para envíos aéreos: los centros NO están aceptando agua embotellada (almacenes saturados), envases de vidrio, ni cartones de jugo o leche — no resisten el transporte aéreo. Prioriza: alimentos enlatados, medicinas, kits de higiene, linternas, pilas y comida para mascotas.",
+    "paises": [
+      {
+        "pais": "Estados Unidos",
+        "ciudades": [
+          {
+            "ciudad": "Miami-Dade, Florida",
+            "puntos": [
+              {
+                "nombre": "Oficinas del Recaudador de Impuestos de Miami-Dade",
+                "direccion": "Sedes en Coral Gables, Downtown Miami, Hialeah Gardens, Kendall, Miami Beach, Miami Gardens y más",
+                "detalle": "Todas las oficinas de la agencia habilitadas como centros de acopio."
+              },
+              {
+                "nombre": "Global Empowerment Mission (GEM)",
+                "direccion": "4 sedes en Doral y Miami",
+                "detalle": "Red formal de acopio con puente aéreo directo a Venezuela, en alianza con I Love Venezuela Foundation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pais": "España",
+        "ciudades": [
+          {
+            "ciudad": "Madrid",
+            "puntos": [
+              {
+                "nombre": "Sambil Madrid — Plataforma Apoyando a Venezuela",
+                "direccion": "Centro Comercial Sambil Madrid",
+                "detalle": "Uno de los principales centros de recepción."
+              },
+              {
+                "nombre": "Refugiados Sin Fronteras y Diáspora en Movimiento",
+                "direccion": "Calle Matilde Landa, 26",
+                "detalle": "Fines de semana de 11:00 a 18:00."
+              },
+              {
+                "nombre": "VENESP + Pardillo Center",
+                "direccion": "Villanueva del Pardillo, Av. de Madrid, 4, Local 1",
+                "detalle": "Recibe productos y aportes económicos para transporte de la ayuda."
+              },
+              {
+                "nombre": "Parroquia Santa Elena de Chamberí",
+                "direccion": "Chamberí, Madrid",
+                "detalle": "Recogida solidaria organizada por la parroquia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pais": "Colombia",
+        "ciudades": [
+          {
+            "ciudad": "Bogotá",
+            "puntos": [
+              {
+                "nombre": "Punto de acopio Suba",
+                "direccion": "Calle 104, barrio Pasadena, Suba",
+                "detalle": "De 7:00 am a 7:00 pm."
+              },
+              {
+                "nombre": "Fundación Juntos Se Puede",
+                "direccion": "Bogotá",
+                "detalle": "Punto de recepción de ayuda humanitaria."
+              }
+            ]
+          },
+          {
+            "ciudad": "Santa Marta",
+            "puntos": [
+              {
+                "nombre": "Parque La Tenería",
+                "direccion": "Carrera 2 con 1D36, cerca de Playa Los Cocos",
+                "detalle": "De 7:00 am a 6:00 pm."
+              }
+            ]
+          },
+          {
+            "ciudad": "Bucaramanga",
+            "puntos": [
+              {
+                "nombre": "Punto San Francisco",
+                "direccion": "Calle 18 #21-52 San Francisco, diagonal a la Iglesia San Francisco",
+                "detalle": "De 7:00 am a 7:00 pm."
+              }
+            ]
+          },
+          {
+            "ciudad": "Cali",
+            "puntos": [
+              {
+                "nombre": "Punto Comuneros II",
+                "direccion": "Carrera 28 B3 #72S – 32 Comuneros II, cerca de la Troncal Unida",
+                "detalle": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pais": "Chile",
+        "ciudades": [
+          {
+            "ciudad": "Santiago",
+            "puntos": [
+              {
+                "nombre": "Mi Trámite Migratorio",
+                "direccion": "Santiago de Chile",
+                "detalle": "Punto de recepción de donaciones."
+              },
+              {
+                "nombre": "Restaurante Calderos",
+                "direccion": "Santiago de Chile",
+                "detalle": "Punto de recepción de donaciones."
+              },
+              {
+                "nombre": "Ballet Folklórico Somos Venezuela",
+                "direccion": "Santiago de Chile",
+                "detalle": "Punto de recepción de donaciones."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "familias": {
+    "titulo": "Ayuda a una familia",
+    "nota": "Campañas de familias reales afectadas por el sismo, verificadas antes de publicarse. Cada donación llega directamente a la familia a través de GoFundMe, con su Garantía de Donación.",
+    "aviso": "JuntosVE no recauda ni gestiona estos fondos. Solo enlaza a campañas verificadas. Confirma siempre los detalles en GoFundMe antes de donar.",
+    "familias": [
+      {
+        "nombre": "Familia Panza Carrillo de Freitas",
+        "zona": "Caraballeda, La Guaira",
+        "historia": "El edificio Mariana Mar colapsó completamente. Juan Manuel falleció. Patricia sigue hospitalizada. La familia perdió todo.",
+        "organizador": "Graziana Schiavone",
+        "url": "https://www.gofundme.com/f/ayuda-a-la-familia-panza-carrillo-de-freitas-terremoto-vzla",
+        "verificado_por": "familiar directo",
+        "recaudado": 5447,
+        "meta": 6500,
+        "moneda": "€"
+      },
+      {
+        "nombre": "Stephan Fraute — perdió a toda su familia",
+        "zona": "Playa Grande, La Guaira",
+        "historia": "Stephan perdió a su esposa Maryeli, a su hija Stephania (8 años) y a su hijo Stephano (1 año) cuando el edificio donde vivían colapsó.",
+        "organizador": "Andres Fraute (hermano), Nueva York",
+        "url": "https://www.gofundme.com/f/help-stephan-after-losing-his-family-in-venezuela-earthquake",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 13957,
+        "meta": 18000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Familia Soto — Residencias Broegan",
+        "zona": "Los Corales, La Guaira",
+        "historia": "Ramón, su hijo Alejandro y Marbelys (embarazada de 7 semanas, estuvo atrapada bajo escombros) perdieron todo. El edificio fue destruido.",
+        "organizador": "Alexis Soto, Miami",
+        "url": "https://www.gofundme.com/f/help-my-family-rebuild-after-the-venezuela-earthquake",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 21112,
+        "meta": 35000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Rafael, 25 años — lucha por su vida",
+        "zona": "Venezuela",
+        "historia": "Rafael de 25 años resultó gravemente herido y necesita atención médica urgente, equipos y medicinas.",
+        "organizador": "Jajaira Salas",
+        "url": "https://www.gofundme.com/f/rafael-25-years-old-is-fighting-for-his-life-in-venezuela",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 2800,
+        "meta": 10000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Un nuevo hogar para nuestros hermanos",
+        "zona": "Venezuela",
+        "historia": "Familia que perdió su hogar y busca reconstruir. Campaña organizada por familiares desde el exterior.",
+        "organizador": "Familiar desde el exterior",
+        "url": "https://www.gofundme.com/f/un-nuevo-hogar-para-nuestros-hermanos",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 0,
+        "meta": 5000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Sobrevivientes del edificio Aguja Azul",
+        "zona": "Venezuela",
+        "historia": "Cayeron desde un sexto piso cuando el edificio Aguja Azul colapsó. Sobrevivieron milagrosamente pero están heridos. La abuelita tiene heridas de consideración. Perdieron todo: hogar, pertenencias y seguridad.",
+        "organizador": "Mercedes Andrade (familiar)",
+        "url": "https://www.gofundme.com/f/ayudame-a-darles-una-nueva-oportunidad-53a4p",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 0,
+        "meta": 5000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Familia Licon — rescatada tras 48 horas",
+        "zona": "La Guaira",
+        "historia": "Tía Azalia fue rescatada con vida del edificio colapsado después de 48 horas atrapada. Primo Daniel aún bajo escombros. Prima Azalia Daniela lo perdió todo.",
+        "organizador": "Katheryne Bosque, New Jersey",
+        "url": "https://www.gofundme.com/f/help-my-family-licon-affected-by-the-earthquake-in-venezuela",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 4032,
+        "meta": 16000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Mi familia lo perdió todo",
+        "zona": "Venezuela",
+        "historia": "Familia que perdió su hogar y todas sus pertenencias durante el terremoto. Necesitan ayuda urgente para cubrir necesidades básicas y empezar de nuevo.",
+        "organizador": "Familiar",
+        "url": "https://www.gofundme.com/f/nnek5-mi-familia-lo-perdio-todo-en-el-terremoto-de-venezuela",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 0,
+        "meta": 5000,
+        "moneda": "$"
+      },
+      {
+        "nombre": "Ayúdanos a seguir",
+        "zona": "Venezuela",
+        "historia": "Familia que lo perdió todo tras el terremoto y necesita ayuda urgente para cubrir necesidades básicas y seguir adelante.",
+        "organizador": "Familiar",
+        "url": "https://www.gofundme.com/f/u947c3-ayudanos-a-seguir",
+        "verificado_por": "GoFundMe verified",
+        "recaudado": 0,
+        "meta": 5000,
+        "moneda": "$"
+      }
+    ],
+    "actualizado_montos": "2026-07-06",
+    "sheets_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSsohTdgF_DlQuXK6NrTvrz2VD69pO4wgjv8qBX9RpP7bNPoC7Ua6-uth-ylyST1RY8h_tCG6b2OkW7/pub?gid=0&single=true&output=csv",
+    "webapp_url": "https://script.google.com/macros/s/AKfycbz7Ganj94C98gELHELgk0AowmSDsr4_VIHBK3nRq1LQCgReDPcACPqX7zUYkCQoZc2R-Q/exec"
+  }
+}
